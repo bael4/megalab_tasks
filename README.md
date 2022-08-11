@@ -1,41 +1,70 @@
-1)Создайте локальный репозиторий. Создайте репозиторий на github. Свяжите локальный и удаленный репозитории. Перед работой над задачей, создайте для неё отдельную ветку. Задания должны находиться на отдельных ветках и запушены на github. Если задание с модернизацией, то нужно замержить в новую ветку. 
+# Getting Started with Create React App
 
-2)Напишите программу, которая будет выводить в html текущую дату и время
-Today is : Friday. 
-Current time is : 4 PM : 50 : 22
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-3)Ваша задача состоит в том, чтобы создать функцию, которая может принимать любое неотрицательное целое число в качестве аргумента и возвращать его с цифрами в порядке убывания. По сути, переставьте цифры, чтобы получить максимально возможное число.
-42145 -> 54421
-145263 -> 654321
-123456789 -> 987654321
+## Available Scripts
 
- 4)Напишите функцию, которая принимает строку из одного или нескольких слов и возвращает ту же строку, но с перевернутыми всеми словами из пяти или более букв. Передаваемые строки будут состоять только из букв и пробелов. Пробелы будут включены только в том случае, если присутствует более одного слова.
-Hey fellow warriors -> Hey wollef sroirraw
-This is another test ->This is rehtona test
-	
-5)На странице есть контейнер <ol id="todo-list"></ol>, необходимо с помощью цикла добавить в него пять задач (элементов <li>) с классом task и текстом, взятым из массива задач из пяти элементов на нативном JS: 
+In the project directory, you can run:
 
-let tasks = ['Buy lemonade', 'Make toasts', 'Repair car', 'Play games', 'Pet a cat'];
+### `npm start`
 
-Ожидаемый результат:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<ol id="todo-list">
-	<li class="task">Buy lemonade</li>
-	<li class="task">Make toasts</li>
-	<li class="task">Repair car</li>
-	<li class="task">Play games</li>
-	<li class="task">Pet a cat</li>
-</ol>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-6)Модернизируйте задачу №2, чтобы время обновлялось каждую секунду
+### `npm test`
 
-7)Реализуйте задачу №5 на React
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-8)Реализуйте счётчик с помощью библиотеки React
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-9)Модернизируйте задачу №8. Добавьте автодекремент(таймер). Число указывается в текстовом поле и через кажду секунду уменьшается на 1. Вводимое число не должно быть больше 1000.  Если активен автодекремент, то кнопки Inscrease и Decrease блокируются. Reset также должен сбрасывать автодекремент.
+### `npm run eject`
 
-	
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
