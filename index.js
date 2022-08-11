@@ -1,3 +1,7 @@
+
+
+
+
 function some(words){
     let arr = []
     words.split(' ').forEach(el => {
