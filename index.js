@@ -21,7 +21,7 @@ function currentTimeAndDay()
 
   clock.innerText = 'Current time is : '+current_time;
   day.innerText = 'Today is: ' + dayOfWeek[days];
-  
+  setTimeout("currentTimeAndDay()",1000)
 }
 currentTimeAndDay()
 
